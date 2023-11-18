@@ -1,0 +1,7 @@
+def smallest_and_largest_words(string):
+    words = string.split()
+    if not words:
+        return None, None
+    smallest = min(words, key=len)
+    largest = max(words, key=len)
+    return smallest, larges
