@@ -1,0 +1,6 @@
+def convert_to_uppercase(string):
+    count = sum(1 for char in string[:4] if char.isupper())
+    if count >= 2:
+        return string.upper()
+    else:
+        return string
