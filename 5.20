@@ -1,0 +1,5 @@
+def remove_consecutive_duplicates(string):
+    result = []
+    for char in string:
+        if not result or char != result[-1]:
+            result.append(c
