@@ -1,0 +1,3 @@
+def swap_comma_and_dot(string):
+    swapped_string = string.replace(',', '|').replace('.', ',').replace('|', '.')
+    return swapped_string
