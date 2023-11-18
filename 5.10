@@ -1,0 +1,4 @@
+def unique_words_sorted(input_str):
+    words = input_str.split(', ')
+    unique_words = sorted(set(words))
+    return ', '.join(unique_words)
