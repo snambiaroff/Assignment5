@@ -1,0 +1,5 @@
+def print_character_indices(string):
+    indices = {}
+    for index, char in enumerate(string):
+        indices[char] = index
+    return indices
