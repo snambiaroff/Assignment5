@@ -1,0 +1,7 @@
+def replace_not_poor(string):
+    if 'not' in string and 'poor' in string and string.index('not') > string.index('poor'):
+        start = string.index('poor')
+        end = string.index('not') + 3
+        return string[:start] + 'good' + string[end:]
+    else:
+        return string
