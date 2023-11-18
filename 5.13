@@ -1,0 +1,2 @@
+def starts_with_chars(string, chars):
+    return string.startswith(chars)
