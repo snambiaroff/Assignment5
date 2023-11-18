@@ -1,0 +1,3 @@
+def print_float_with_2_decimal_places(number):
+    formatted_number = '{:.2f}'.format(number)
+    return formatted_number
